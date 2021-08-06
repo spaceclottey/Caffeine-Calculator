@@ -75,7 +75,7 @@ export default function Home() {
 
         <p> -- </p> 
 
-        <p> This all assumes your sleep/energy is screwed and you are wading through the long-term process of unconvering why and fixing it but in the meantime wish to optimize your use of the stimulant <a href="https://www.webmd.com/vitamins/ai/ingredientmono-979/caffeine" referrer="noreferrer"> caffeine </a> to feel alert as you do so. Not a doctor, et cetera et cetera. </p> 
+        <p> This all assumes your sleep/energy is screwed and you are wading through the long-term process of unconvering why and fixing it but in the meantime wish to optimize your use of the stimulant <a href="https://www.webmd.com/vitamins/ai/ingredientmono-979/caffeine" referrer="noreferrer"> caffeine </a> to feel alert as you do so. <br/> Not a doctor, do your own research to ensure you don't do anything unsafe. </p> 
       </main>
 
       <footer className={styles.footer}>

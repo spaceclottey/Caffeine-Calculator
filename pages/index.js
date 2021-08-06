@@ -31,9 +31,9 @@ export default function Home() {
           Caffeine Calculator
         </h1>
 
-        <div>
+        
           <label>
-            How many increments of caffeine amounts do you have? (eg. 10/14)
+            How many increments of caffeine amounts do you have? (increments meaning 25mg/50mg/75mg so eg. 10/11)
           </label>
           <input
             style={{ display: "block", align: "center" }}
@@ -53,17 +53,17 @@ export default function Home() {
             onChange={(e) => setDaysToTolerance(e.target.value)}
           ></input>
 
-          <label>How many days does it take to reset caffeine tolerance?</label>
+          <label>How many days does it take for you to reset caffeine tolerance?</label>
           <input
             style={{ display: "block" }}
             type="text"
             value={daysToReset}
             onChange={(e) => setDaysToReset(e.target.value)}
           ></input>
-        </div>
+      
 
         <p>
-          That means {stimulatedDays} of increasing caffeine dosage every
+          That means {stimulatedDays} days of increasing caffeine dosage every{" "}
           {daysToTolerance} days until having to spend {daysToReset} days
           without caffeine to reset your tolerance. This cycle will reset every{" "}
           {cycleLengthMonths.toFixed(1)} months.
@@ -76,7 +76,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="spacelutt.com/nullius"
+          href="https://spacelutt.com/choices"
           target="_blank"
           rel="noopener noreferrer"
         >
